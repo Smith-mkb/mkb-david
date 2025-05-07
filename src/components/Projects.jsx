@@ -37,9 +37,7 @@ const Projects = () => {
                 className="w-full max-w-xl lg:w-3/4"
               >
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
-                <p className="mb-4 text-neutral-400 text-justify">
-                  {project.description}
-                </p>
+                <p className="mb-4 text-neutral-400 text-justify" dangerouslySetInnerHTML={{ __html:project.description}}/>
                 <div className="flex flex-wrap justify-start items-center">
                   {project.technologies &&
                     project.technologies.map((tech, key) => (
