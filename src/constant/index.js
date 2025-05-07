@@ -62,7 +62,14 @@ export const PROJECTS = [
     title: "Portfolio",
     image: ProjectImg,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,harum! Necessitatibus iusto hic reiciendis impedit asperiores ut rerum dolorum, vel, magnam modi reprehenderit, tempora enim. illum nulla ipsa at.",
+      "Ce projet a pour mission de servir de plateforme de présentation interactive destinée à toute personne ou organisation souhaitant  exposer des projets, des réalisations ou des travaux numériques de manière claire, moderne et responsive.  
+
+Conçu comme une vitrine numérique adaptable, le portfolio permet à ses utilisateurs de :
+- Structurer et valoriser efficacement leur contenu,
+- Centraliser leurs projets dans un seul espace consultable,
+- Offrir une navigation fluide à leurs visiteurs, recruteurs, partenaires ou clients.
+
+Ce type d’application peut être utilisé dans des contextes variés : freelances, artistes, entreprises, agences ou étudiants — tout acteur ayant besoin de présenter son travail de façon professionnelle et accessible en ligne.",
     technologies: ["Javascript", "ReactJs", "Laravel"],
   },
   {
