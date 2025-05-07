@@ -67,8 +67,7 @@ export const PROJECTS = [
   {
     title: "Blog",
     image: ProjectImg,
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,harum! Necessitatibus iusto hic reiciendis impedit asperiores ut rerum dolorum, vel, magnam modi reprehenderit, tempora enim. illum nulla ipsa at.",
+    description:"Ce blog est une plateforme de publication en ligne conçue pour faciliter la création, la diffusion et l’interaction autour de contenus éditoriaux.<br/> Il permet aux utilisateurs de parcourir les articles via un système de catégories, de mots-clés (tags) et de recherche intégrée.<br/> Les auteurs peuvent créer, modifier et publier des articles grâce à une interface de gestion simple et sécurisée.<br/> Les visiteurs peuvent commenter les publications, favorisant ainsi les échanges et les discussions autour des sujets abordés.<br/> L’ensemble vise à offrir un espace clair, organisé et interactif pour le partage d’informations et d’idées.",
     technologies: ["Laravel", "Javascript", "TailwindCss"],
   },
 ];
