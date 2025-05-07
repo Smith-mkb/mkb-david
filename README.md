@@ -1,12 +1,15 @@
-# mkb-david
+## À propos du projet
 
-portfolio
+Ce portfolio a été conçu avec **React JS**. Il a pour vocation de mettre en avant mon **profil de développeur web**, tout en présentant mes **réalisations** et projets personnels.
 
-# React + Vite
+### Objectifs :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Mettre en valeur mes compétences techniques et mon parcours professionnel,
+- Présenter mes projets passés et en cours de manière claire et interactive,
+- Proposer un espace évolutif que je peux enrichir avec de nouvelles fonctionnalités et créations.
 
-Currently, two official plugins are available:
+Ce projet est pensé comme une **vitrine professionnelle** mais aussi comme un **terrain d'expérimentation** pour tester de nouvelles idées, améliorer mes compétences, et suivre ma progression dans le temps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+> Ce portfolio est un projet vivant, destiné à évoluer continuellement avec mes expériences et apprentissages.
