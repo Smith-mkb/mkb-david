@@ -48,13 +48,13 @@ export const PROJECTS = [
     title: "ERP",
     image: ProjectImg,
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,harum! Necessitatibus iusto hic reiciendis impedit asperiores ut rerum dolorum, vel, magnam modi reprehenderit, tempora enim. illum nulla ipsa at.",
+      "Ce projet ERP consiste à implémenter une solution de gestion intégrée au sein des entreprises afin de centraliser l’ensemble des processus métiers dans un système unique. L’ERP couvre plusieurs domaines fonctionnels clés : <br/>la comptabilité, la gestion des stocks, les achats, les ventes, les ressources humaines et le reporting.<br/>L’objectif principal était de remplacer les outils fragmentés par une solution unifiée permettant de structurer les flux d’information, d’améliorer la visibilité sur l’ensemble des opérations, et d’automatiser les tâches répétitives. <br/><span className="font-bold  text-white">Importance de l’ERP dans une entreprise :</span><br/>Un ERP est un outil stratégique qui permet à une entreprise d’améliorer sa performance globale. En intégrant tous les départements dans un seul système, il réduit les erreurs liées à la double saisie, facilite la communication interservices, accélère la prise de décision grâce à des données fiables en temps réel, et garantit une meilleure traçabilité des opérations.<br/>Grâce à ce projet, les entreprises pourront :<br/>•Uniformiser ses processus internes<br/>•Gagner en réactivité face aux clients et fournisseurs<br/>•Mieux contrôler ses coûts et ses stocks<br/>•Optimiser la gestion de ses ressources humaines et matérielles",
     technologies: ["Javascript", "ReactJs"],
   },
   {
     title: "E-commerce",
     image: ProjectImg,
-    description:"Cette application <span className='font-bold text-white'>e-commerce</span>permet aux utilisateurs de parcourir un catalogue de produits, d’effectuer des recherches filtrées, d’ajouter des articles à leur panier et de finaliser leurs achats via un processus de commande sécurisé.<br/>Le site intègre également un espace utilisateur pour le suivi des commandes, l’historique d’achats et la gestion des informations personnelles.<br/> Un système de gestion des stocks,de catégories et de promotions permet d’adapter dynamiquement l’offre produit.<br/>L’objectif est de fournir une expérience d’achat fluide, fiable et accessible sur tous types de supports.",
+    description:"Cette application e-commerce permet aux utilisateurs de parcourir un catalogue de produits, d’effectuer des recherches filtrées, d’ajouter des articles à leur panier et de finaliser leurs achats via un processus de commande sécurisé.<br/>Le site intègre également un espace utilisateur pour le suivi des commandes, l’historique d’achats et la gestion des informations personnelles.<br/> Un système de gestion des stocks,de catégories et de promotions permet d’adapter dynamiquement l’offre produit.<br/>L’objectif est de fournir une expérience d’achat fluide, fiable et accessible sur tous types de supports.",
     technologies: ["Javascript", "ReactJs"],
   },
   {
