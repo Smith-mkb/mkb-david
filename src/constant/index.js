@@ -26,7 +26,7 @@ export const EXPERIENCES = [
     year: "2021 - 2023",
     role: "Développeur Full-Stack",
     company: "Meta-smart",
-    description:"",
+description:"",
     technologies: ["Javascript", "Php", "Sql"],
   },
   {
