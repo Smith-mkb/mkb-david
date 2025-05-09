@@ -13,20 +13,19 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Développeur Full-Stack",
     company: "Pteron",
-    description:""],
+    description:"..."],
   },
   {
     year: "2024 - present",
     role: "Développeur web & Mobile",
     company: "Group-In",
-    description:"",
+    description:"...",
     technologies: ["ReactJs", "React-Native", "JavaScript"],
   },
   {
     year: "2021 - 2023",
     role: "Développeur Full-Stack",
-    company: "Meta-smart",
-description:"",
+    company: "Meta-smart",description:"...",
     technologies: ["Javascript", "Php", "Sql"],
   },
   {
