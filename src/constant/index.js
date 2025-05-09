@@ -54,7 +54,7 @@ export const PROJECTS = [
   {
     title: "E-commerce",
     image: ProjectImg,
-    description:"Cette application <span className="font-bold  text-white">e-commerce</span>permet aux utilisateurs de parcourir un catalogue de produits, d’effectuer des recherches filtrées, d’ajouter des articles à leur panier et de finaliser leurs achats via un processus de commande sécurisé. <br/> Le site intègre également un espace utilisateur pour le suivi des commandes, l’historique d’achats et la gestion des informations personnelles.<br/> Un système de gestion des stocks, de catégories et de promotions permet d’adapter dynamiquement l’offre produit.<br/> L’objectif est de fournir une expérience d’achat fluide, fiable et accessible sur tous types de supports.",
+    description:"Cette application <span className='font-bold text-white'>e-commerce</span>permet aux utilisateurs de parcourir un catalogue de produits, d’effectuer des recherches filtrées, d’ajouter des articles à leur panier et de finaliser leurs achats via un processus de commande sécurisé.<br/>Le site intègre également un espace utilisateur pour le suivi des commandes, l’historique d’achats et la gestion des informations personnelles.<br/> Un système de gestion des stocks,de catégories et de promotions permet d’adapter dynamiquement l’offre produit.<br/>L’objectif est de fournir une expérience d’achat fluide, fiable et accessible sur tous types de supports.",
     technologies: ["Javascript", "ReactJs"],
   },
   {
