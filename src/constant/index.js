@@ -13,32 +13,27 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Développeur Full-Stack",
     company: "Pteron",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,harum! Necessitatibus iusto hic reiciendis impedit asperiores ut rerum dolorum, vel, magnam modi reprehenderit, tempora enim. illum nulla ipsa at.",
-    technologies: ["ReactJs", "React-Native", "Laravel", "Php", "JavaScript"],
+    description:""],
   },
   {
     year: "2024 - present",
     role: "Développeur web & Mobile",
     company: "Group-In",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,harum! Necessitatibus iusto hic reiciendis impedit asperiores ut rerum dolorum, vel, magnam modi reprehenderit, tempora enim. illum nulla ipsa at.",
+    description:"",
     technologies: ["ReactJs", "React-Native", "JavaScript"],
   },
   {
     year: "2021 - 2023",
     role: "Développeur Full-Stack",
     company: "Meta-smart",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,harum! Necessitatibus iusto hic reiciendis impedit asperiores ut rerum dolorum, vel, magnam modi reprehenderit, tempora enim. illum nulla ipsa at.",
+    description:"",
     technologies: ["Javascript", "Php", "Sql"],
   },
   {
     year: "2020 - 2021",
     role: "Développeur web",
     company: "Meta-smart",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,harum! Necessitatibus iusto hic reiciendis impedit asperiores ut rerum dolorum, vel, magnam modi reprehenderit, tempora enim. illum nulla ipsa at.",
+    description:"",
     technologies: ["Javascript", "Html", "Css"],
   },
 ];
