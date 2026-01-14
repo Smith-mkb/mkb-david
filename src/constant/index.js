@@ -1,6 +1,8 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import ProjectImg from "../assets/project.svg";
-export const HERO_CONTENT =
-  "Passionné par la technologie et le développement web & mobile, je crée des solutions innovantes et performantes pour répondre aux besoins de mes clients. Avec une expertise en front-end et back-end, j'apporte une approche holistique à chaque projet pour garantir des résultats optimaux. Toujours à l'écoute des dernières tendances et technologies, je m'efforce de rester à la pointe de mon domaine.";
+
+export const HERO_CONTENT ="Passionné par la technologie et le développement web & mobile, je crée des solutions innovantes et performantes pour répondre aux besoins de mes clients. Avec une expertise en front-end et back-end, j'apporte une approche holistique à chaque projet pour garantir des résultats optimaux. Toujours à l'écoute des dernières tendances et technologies, je m'efforce de rester à la pointe de mon domaine.";
 
 export const ABOUT_TEXT = {
   pa1: "Je m'appelle David Mukombo et je suis un développeur Full Stack passionné par la création d'applications web dynamiques et réactives. Avec plusieurs années d'expérience dans le développement front-end et back-end, j'ai acquis une expertise solide en utilisant des technologies telles que JavaScript, React, Node.js, et bien d'autres.",
@@ -13,27 +15,28 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Développeur Full-Stack",
     company: "Pteron",
-    description: "..."],
+    description: "",
+    technologies: ["Frontend", "Backend", "Mobile"],
   },
   {
     year: "2024 - present",
     role: "Développeur web & Mobile",
     company: "Group-In",
-    description: "...",
+    description: "",
     technologies: ["ReactJs", "React-Native", "JavaScript"],
   },
   {
     year: "2021 - 2023",
     role: "Développeur Full-Stack",
     company: "Meta-smart",
-    description: "...",
+    description: "",
     technologies: ["Javascript", "Php", "Sql"],
   },
   {
     year: "2020 - 2021",
     role: "Développeur web",
     company: "Meta-smart",
-    description: "...",
+    description: "",
     technologies: ["Javascript", "Html", "Css"],
   },
 ];
@@ -71,8 +74,20 @@ export const CONTACT = {
   phoneNumber: "+234-826-648-465",
 };
 
-export const SOCIAL_NETWORK = {
-  linkedin: "https://www.linkedin.com/in/smith-mkb-702320309/",
-  github: "https://github.com/Smith-mkb",
-  twitter: "https://x.com/smith_mkb2?t=UP-vZytlJoTvWo6ZeBgavQ&s=35",
-};
+export const SOCIAL_NETWORK = [
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/smith-mkb-702320309/",
+    icon: FaLinkedin,
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/Smith-mkb",
+    icon: FaGithub,
+  },
+  {
+    name: "Twitter",
+    url: "https://x.com/smith_mkb2?t=UP-vZytlJoTvWo6ZeBgavQ&s=35",
+    icon: FaSquareXTwitter,
+  },
+];

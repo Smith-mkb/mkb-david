@@ -10,3 +10,15 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+
+.glass {
+  @apply bg-white/10 backdrop-blur-xl border border-white/20 shadow-xl;
+}
+
+.glass-hover {
+  @apply transition-all duration-300 hover:bg-white/20 hover:scale-[1.02];
+}
+
+.glow {
+  box-shadow: 0 0 40px rgba(99,102,241,0.15);
+}

@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="">
         {PROJECTS &&
           PROJECTS.map((project, key) => (
-            <div className="mb-8 flex flex-wrap lg:justify-center" key={key}>
+            <div className="mb-8 flex flex-wrap lg:justify-center glass rounded-2xl p-6 glass-hover group" key={key}>
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -27,7 +27,7 @@ const Projects = () => {
                   width={150}
                   height={150}
                   alt={project.title}
-                  className="mb-6 rounded"
+                  className="rounded-xl mb-4 group-hover:scale-105 transition"
                 />
               </motion.div>
               <motion.div
@@ -36,7 +36,7 @@ const Projects = () => {
                 transition={{ duration: 1 }}
                 className="w-full max-w-xl lg:w-3/4"
               >
-                <h6 className="mb-2 font-semibold">{project.title}</h6>
+                <h3 className="mb-2 font-semibold text-xl">{project.title}</h3>
                 <p className="mb-4 text-neutral-400 text-justify" dangerouslySetInnerHTML={{ __html:project.description}}/>
                 <div className="flex flex-wrap justify-start items-center">
                   {project.technologies &&

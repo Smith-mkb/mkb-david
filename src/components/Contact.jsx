@@ -3,14 +3,10 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <section className="border-b border-neutral-900 pb-4">
-      <motion.h2
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 0.5 }}
-        className="my-20 text-center text-3xl md:text-4xl"
-      >
-        Entrez en Contact
-      </motion.h2>
+      <div className="glass rounded-2xl p-8 text-center glow">
+        <p className="text-2xl font-semibold mb-4">
+          Travaillons ensemble 🚀
+        </p>
       <div className="text-center tracking-tighter">
         <motion.p
           whileInView={{ opacity: 1, y: 0 }}
@@ -20,9 +16,18 @@ const Contact = () => {
         >
           {CONTACT.phoneNumber}
         </motion.p>
-        <a href="#" className="hover:border-b">
-          {CONTACT.email}
-        </a>
+
+        <motion.a
+        whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 1 }}
+          href={`mailto:${CONTACT.email}`}
+          className="inline-block mt-4 px-6 py-3 rounded-xl bg-indigo-500 hover:bg-indigo-600 transition"
+        >
+          Me contacter
+        </motion.a>
+      </div>
+
       </div>
     </section>
   );

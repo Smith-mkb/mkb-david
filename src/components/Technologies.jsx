@@ -37,7 +37,7 @@ const Technologies = () => {
           variants={iconVarients(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="glass rounded-2xl p-6 glow hover:rotate-3 transition"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
@@ -45,7 +45,7 @@ const Technologies = () => {
           variants={iconVarients(3)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="glass rounded-2xl p-6 glow hover:rotate-3 transition"
         >
           <FaLaravel className="text-7xl text-rose-500" />
         </motion.div>
@@ -53,7 +53,7 @@ const Technologies = () => {
           variants={iconVarients(5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="glass rounded-2xl p-6 glow hover:rotate-3 transition"
         >
           <RiFlutterLine className="text-7xl text-blue-500" />
         </motion.div>
@@ -61,7 +61,7 @@ const Technologies = () => {
           variants={iconVarients(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+         className="glass rounded-2xl p-6 glow hover:rotate-3 transition"
         >
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
@@ -69,7 +69,7 @@ const Technologies = () => {
           variants={iconVarients(6)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+         className="glass rounded-2xl p-6 glow hover:rotate-3 transition"
         >
           <SiMysql className="text-7xl text-cyan-600" />
         </motion.div>
@@ -77,7 +77,7 @@ const Technologies = () => {
           variants={iconVarients(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="glass rounded-2xl p-6 glow hover:rotate-3 transition"
         >
           <SiTailwindcss className="text-7xl text-cyan-400" />
         </motion.div>

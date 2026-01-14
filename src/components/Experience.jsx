@@ -15,16 +15,18 @@ const Experience = () => {
       <div>
         {EXPERIENCES &&
           EXPERIENCES.map((experience, key) => (
-            <section
+           <section
+              className="relative pl-6 border-l border-neutral-700"
               key={key}
-              className="mb-8 flex flex-wrap lg:justify-center"
-            >
+              >
+              <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-indigo-500 glow" />
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
                 className="w-full lg:w-1/5"
               >
+
                 <p className="mb-2 text-sm text-neutral-400">
                   {experience.year}
                 </p>

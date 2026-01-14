@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constant/index.js";
-import Profile from "../assets/programming.svg";
+import Profile from "../assets/hero_profile.png";
 import { motion } from "framer-motion";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -15,14 +15,15 @@ const Hero = () => {
       <div className="flex flex-wrap items-center mb-5 sm:flex">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start ">
-            <motion.h1
+           <motion.h1
+              className="text-5xl text-center sm:text-left lg:text-7xl font-extrabold leading-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="mb-9 text-4xl font-thin tracking-tight sm:text-6xl lg:mt-16 lg:text-7xl"
             >
               David Mukombo
             </motion.h1>
+
             <motion.span
               variants={container(0.5)}
               initial="hidden"
@@ -44,12 +45,11 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1.2 }}
+              animate={{ y: [0, -15, 0] }}
+              transition={{ repeat: Infinity, duration: 6 }}
+              className="drop-shadow-[0_20px_40px_rgba(0,0,0,0.5)]"
               src={Profile}
               alt="profile"
-              className="w-full sm:w-4/5"
             />
           </div>
         </div>
